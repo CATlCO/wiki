@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=latin,latin-ext,vietnamese,cyrillic-ext,greek-ext,cyrillic,greek);
+html {
+  overflow-y: scroll; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  background: url(wikipedia-logo.jpg) top center/cover repeat; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center; }
+
+.result {
+  text-align: center; }
+
+.item {
+  margin: 20px auto;
+  display: block;
+  max-width: 500px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(64, 89, 82, 0.75);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  border-radius: 5px;
+  padding: 10px; }
+  .item h2 {
+    font-size: 30px;
+    padding-bottom: 10px; }
+  .item p {
+    line-height: 25px; }
+  .item .searchmatch {
+    font-weight: 700; }
+  .item:hover {
+    background-color: #405952;
+    box-shadow: 0 0 5px #fff; }
+
+.search-form {
+  max-width: 500px;
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  text-align: left;
+  padding: 10px;
+  width: 50%;
+  background-color: rgba(64, 89, 82, 0.75);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  border-radius: 5px; }
+  .search-form i {
+    font-size: 20px;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; }
+  .search-form input {
+    max-width: 80%;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none; }
+    .search-form input::-webkit-input-placeholder {
+      color: white; }
+    .search-form input:-moz-placeholder {
+      color: white; }
+    .search-form input::-moz-placeholder {
+      color: white; }
+    .search-form input:-ms-input-placeholder {
+      color: white; }
+    .search-form input:focus::-webkit-input-placeholder {
+      color: transparent; }
+    .search-form input:focus:-moz-placeholder {
+      color: transparent; }
+    .search-form input:focus::-moz-placeholder {
+      color: transparent; }
+    .search-form input:focus:-ms-input-placeholder {
+      color: transparent; }
+
+.random {
+  margin-left: 10px;
+  padding: 11px 5px;
+  vertical-align: middle;
+  border-radius: 5px;
+  background-color: rgba(64, 89, 82, 0.75);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease; }
+  .random:hover {
+    box-shadow: 0 0 5px #fff; }
+
+.fa-question-circle {
+  vertical-align: middle;
+  margin-top: -4px;
+  color: white;
+  opacity: 0.5;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease; }
+  .fa-question-circle:hover {
+    opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */
